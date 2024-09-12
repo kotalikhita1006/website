@@ -1,0 +1,327 @@
+#website{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 350px;
+        padding: 15px;
+        #nav-menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            #nav-text{
+                color: gray;
+                font-size: 23px;
+            }
+            #icons{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                #icon{
+                    height: 35px;
+                    width: 35px;
+                    border-radius: 50px;
+                }
+            }
+            
+        }
+           
+    }
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px ;
+        gap: 15px;
+        padding: 90px 275px;
+        background-image: url("https://tse1.mm.bing.net/th?id=OIP.UtxGQAu5MFYG4nza8JAxIwHaEK&pid=Api&P=0&h=180");
+        #home-one{
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+        #home-two{
+            font-size: 15px;
+            border: 4px;
+            width: 500px;
+            text-align: center;
+            color: white;
+            gap: 10px;
+        }
+        #home-three{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 2px ;
+            padding: 10px 10px;
+            background-color: rgb(165, 186, 194);
+            #inp{
+                height: 50px;
+                width:200px;
+                background-color: rgb(34, 111, 34);
+                border: 2px rgb(207, 126, 126);
+                font-size: 20px;
+                font-weight: bold;
+            
+            }
+            #search{
+                background-color: rgba(227, 209, 212, 0.498) ;
+                border: none;
+                cursor:pointer;
+                font-size: 15px;
+                color: black;
+                padding: 10px 30px;
+                border-radius: 3px;
+            }
+        }
+        #home-note{
+            color: whitesmoke;
+        }
+    }
+    #media-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+        padding: 0px 150px;
+        background-color: gainsboro;
+        #media{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 30px;
+            gap:0px;
+            background-color: beige;
+            #img1{
+                height: 80px;
+                width: 55px;
+                border: 2px rgba(23, 70, 89, 0.271);
+                border-radius: 150px;
+                padding: 20px 20px;
+            }
+            #text{
+                color: black;
+                font-size: 20px;
+            }
+        }
+    }
+    #robo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 20px;
+        gap:10px;
+        #Amazing{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /*border: 30px;*/
+            gap:20px;
+            padding: 15px 130px;
+            #title{
+                color: black;
+                font-size: 22px;
+                font-weight: bold;
+            }
+            #statement{
+                color: black;
+                font-size: 18px;
+            }
+            #para{
+                color: black;
+                font-size: 13px;
+            }
+                
+        }
+        /*#image{
+            height: 350px;
+            width: 300px;
+            padding: 25px,500px;
+        }*/
+            
+    }
+    #dual{
+            
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(253, 248, 242);
+        #1ine{
+            font-size: 22px;
+            font-weight: bold;
+            color: black;
+        }  
+        #note{
+            font-size: 20px;
+            color: gray;
+        }
+    }
+    #logos{
+            
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        /*padding: 20px 300px;*/ 
+        #logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 20px 10px; 
+            width: 100px; 
+        } 
+    }
+    #single{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 30px 0px; 
+        background-color:rgba(237, 232, 232, 0.949);
+        #double{
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            gap: 30px;
+        }
+        #triple{
+            color: black;
+            font-size: 15px;
+        }
+        #rating{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 25px;
+            #ratingone{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 10px;
+                #logo{
+                    padding: 5px 10px;
+                    background-color: beige;
+                } 
+                #logo-text{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: white;
+                    gap: 10px;
+                    padding: 8px 5px;
+                    #logo-para{
+                        font-size: 13px;
+                    }
+                    #logo-stars{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: start;
+                        
+                    }
+                    #site{
+                        font-size: 13px;
+                            
+                    } 
+                } 
+            }
+        } 
+    }
+    #end{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 30px;
+        #end1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            #l1{
+                color: black;
+                font-size: 25px;
+                font-weight: bold;
+                gap: 10px;
+            }
+            #l2{
+                color: black;
+                font-size: 15px;
+                text-align: center;
+                padding: 10px 90px;
+
+            }
+            #button{
+                background-color: skyblue;
+                font-size: 20px;
+                border-radius: 3px;
+                gap: 0px;
+                padding: 5px 30px;
+            }
+        }
+    }
+    #final{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        background-color: rgba(245, 235, 235, 0.873);
+        height: 50px;
+        width: 700px;
+        border: 5px black;
+        padding: auto;
+        #final1{
+            color: gray;
+            font-size: 12px;
+            gap: 50px;
+            text-align: left;
+        }
+        #final2{
+            color: red;
+            font-size: 13px;
+            gap: 50px;
+                
+        }
+        #final3{
+            color: black;
+            font-size: 12px;
+            gap: 50px;
+            padding: 0px 50px;
+        }
+    }
+}
+ 
+
+
+
+
+        
+        
+
+                           
